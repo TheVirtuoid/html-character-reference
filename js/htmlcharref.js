@@ -28,6 +28,11 @@
 			const groups = group.split(",");
 			const startGroup = parseInt(groups[0], 10);
 			const endGroup = parseInt(groups[1], 10);
+			let option = document.createElement("option");
+			option.value = "";
+			option.selected = true;
+			option.textContent = "--Select from list--";
+			selectThousands.appendChild(option);
 			for(let i = startGroup, l = endGroup+1; i < l; i += 500) {
 				let option = document.createElement("option");
 				option.value = `${i},${i + 499}`;

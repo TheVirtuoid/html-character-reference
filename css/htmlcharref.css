@@ -9,6 +9,9 @@ main > div {
 	color: white;
 }
 
+main.tiny {
+	font-size: .6rem;
+}
 main.small {
 	font-size: .75rem;
 }
@@ -17,6 +20,9 @@ main.medium {
 }
 main.large {
 	font-size: 1.5rem;
+}
+main.xlarge {
+	font-size: 2rem;
 }
 
 
