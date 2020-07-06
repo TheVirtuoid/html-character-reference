@@ -1,0 +1,44 @@
+main {
+	display: flex;
+	flex-wrap: wrap;
+}
+main > div {
+	margin: .5rem;
+	padding: .5rem;
+	background-color: darkslategray;
+	color: white;
+}
+
+main.small {
+	font-size: .75rem;
+}
+main.medium {
+	font-size: 1rem;
+}
+main.large {
+	font-size: 1.5rem;
+}
+
+
+
+main > div span {
+	display: block;
+	text-align: center;
+	font-family: monospace;
+}
+main > div span:first-child {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+nav label {
+	display: block;
+	margin: .5rem;
+}
