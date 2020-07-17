@@ -36,7 +36,11 @@ main > div span:first-child {
 	font-size: 2em;
 	font-weight: bold;
 }
-
+/*
+main > div span:first-child::before {
+	content: attr(content);
+}
+*/
 
 nav {
 	display: flex;

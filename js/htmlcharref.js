@@ -1,4 +1,3 @@
-( () => {
 	const selectTenThousands = document.getElementById("tenthousands");
 	const selectThousands = document.getElementById("thousands");
 	const selectSizing = document.getElementById("sizing");
@@ -60,4 +59,3 @@
 	function processSizing(event) {
 		main.className = event.target.value;
 	}
-})();
